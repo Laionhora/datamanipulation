@@ -90,3 +90,8 @@ class Archive:
                     registro.data_lancamento,
                     registro.ano_exercicio,
                 ])
+
+        @staticmethod
+        def excluir_dados(dados, indice):
+
+            del dados[indice]
