@@ -31,7 +31,7 @@ if __name__ == '__main__':
         arquivo.editar_dados(data, 1, novo_registro)
 
         # Exclui o terceiro registro
-       # arquivo.excluir_dados(dados, 2)
+        arquivo.excluir_dados(data, 2)
 
         # Grava os dados atualizados
         arquivo.gravar_dados(data)
